@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập JavaScript - Thịnh</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; padding: 30px; line-height: 1.6; background-color: #f9f9f9; }
+        .student-card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px; border-left: 6px solid #007bff; }
+        .exercise-box { background: #fff; padding: 15px; border: 1px solid #ddd; border-radius: 8px; margin-top: 15px; }
+        h2 { color: #333; margin-top: 0; }
+        b { color: #007bff; }
+    </style>
+</head>
+<body>
+
+    <div class="student-card">
+        <h2>Thông tin sinh viên</h2>
+        <p>Họ và tên: <b>Nguyễn Trần Hữu Thịnh</b></p>
+        <p>MSSV: <b>21092661</b></p>
+    </div>
+
+    <hr>
+
+    <script src="cau1.js"></script>
+    <script src="cau2.js"></script>
+    <script>
+        let choice = prompt("CHOOSE YOUR QUESTION");
+        if (choice === "1") {
+            doCau1();
+        } else if (choice === "2") {
+            doCau2();
+        } else {
+            alert("Option not found!");
+        }
+    </script>
+
+</body>
+</html>
