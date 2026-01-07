@@ -80,7 +80,7 @@ const average = (arr) => arr.reduce((a, b) => a + b, 0) / arr.length;
 const filterEven = (arr) => arr.filter(n => n % 2 === 0);
 
 // MENU CHỌN BÀI TẬP
-let choice = prompt("Chọn bài tập muốn chạy (1-12):");
+let choice = prompt("Chọn bài tập muốn chạy (1-10):");
 
 switch(choice) {
     case "1": ex1(); break;
@@ -102,12 +102,8 @@ switch(choice) {
         console.log("Chuỗi đối xứng:", isPalindrome(prompt("Bài 9 - Nhập chuỗi:"))); 
         break;
     case "10":
-    case "11":
-    case "12":
-        let inputArr = prompt("Bài 10-12 - Nhập dãy số (cách nhau bằng dấu phẩy):").split(",").map(Number);
-        if (choice === "10") console.log("Số lớn nhất:", findMax(inputArr));
-        if (choice === "11") console.log("Trung bình cộng:", average(inputArr).toFixed(2));
-        if (choice === "12") console.log("Các số chẵn:", filterEven(inputArr));
+        let inputArr = prompt("Bài 10- Nhập dãy số (cách nhau bằng dấu phẩy):").split(",").map(Number);
+        console.log("Số lớn nhất:", findMax(inputArr));
         break;
     default: alert("Lựa chọn không hợp lệ!");
 }
