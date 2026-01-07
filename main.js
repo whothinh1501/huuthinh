@@ -79,7 +79,7 @@ const average = (arr) => arr.reduce((a, b) => a + b, 0) / arr.length;
 // Bài 12. Lọc số chẵn
 const filterEven = (arr) => arr.filter(n => n % 2 === 0);
 
-// --- MENU ĐIỀU KHIỂN ---
+// MENU CHỌN BÀI TẬP
 let choice = prompt("Chọn bài tập muốn chạy (1-12):");
 
 switch(choice) {
