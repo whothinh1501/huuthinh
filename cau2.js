@@ -9,6 +9,6 @@ function doCau2() {
     document.write("<div class='exercise-box'>");
     document.write("<h3>Kết quả Câu 2</h3>");
     document.write("<p>Số bạn nhập: " + n + " là <b>" + ketQua + "</b></p>");
-    document.write("</div>");\
+    document.write("</div>");
     console.log("đã update");
 }
