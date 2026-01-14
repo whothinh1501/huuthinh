@@ -106,7 +106,7 @@ function ex13() {
 }
 
 // MENU CHỌN BÀI TẬP
-let choice = prompt("Chọn bài tập muốn chạy (1-13):");
+let choice = prompt("Chọn bài tập muốn chạy :");
 
 switch(choice) {
     case "1": ex1(); break;
